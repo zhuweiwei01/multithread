@@ -1,0 +1,1 @@
+写锁的获取几乎跟ReentrantLock一样，除了在tryAcquire方法中加了对读锁的判断
